@@ -1431,6 +1431,187 @@ ETKEN_MADDE_KATEGORI = [
     ("CALCIJEX", "KALSİYUM DESTEĞİ"),
     ("ROCALTROL", "D VİTAMİNİ"),
     ("KALSITRIOL", "D VİTAMİNİ"),
+
+    # ============ BATCH 6 — Daha derinlemesine markalar ============
+    ("PROVIRON", "HORMON"),                  # mesterolon
+    ("MESTEROLON", "HORMON"),
+    ("IPRASAL", "ASTIM İLACI"),               # ipratropium+salbutamol nebül
+    ("RHOPHYLAC", "BAĞIŞIKLIK SİSTEMİ İLACI"),  # Rh immün
+    ("CEZOL", "ANTİBİYOTİK"),                 # sefazolin
+    ("EQIZOLIN", "ANTİBİYOTİK"),
+    ("CEFAMED", "ANTİBİYOTİK"),
+    ("PATANOL", "GÖZ İLACI"),                 # olopatadin
+    ("OLOPATADIN", "GÖZ İLACI"),
+    ("QSMOK", "SİGARA BIRAKMA"),              # vareniklin
+    ("DESLORAN", "ALLERJİ / KAŞINTI İLACI"),   # desloratadin
+    ("DESLORATIN", "ALLERJİ / KAŞINTI İLACI"),
+    ("VARIDOS", "TOPLARDAMAR / VARİS İLACI"),
+    ("VEMLIDY", "HEPATİT İLACI"),             # tenofovir alafenamid
+    ("TENOFOVIR", "HEPATİT İLACI"),
+    ("ENTECAVIR", "HEPATİT İLACI"),
+    ("BARACLUDE", "HEPATİT İLACI"),
+    ("TAGLIN", "DİYABET"),                    # sitagliptin+metformin
+    ("BRONCHO-MUNAL", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("VAXORAL", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("REDOX-C", "VİTAMİN DESTEĞİ"),
+    ("TRANKO-BUSKAS", "KARIN AĞRISI / KASILMA İLACI"),
+    ("GRIBO", "GRİP / SOĞUK ALGINLIĞINDA"),
+    ("FERVION", "DEMİR DESTEĞİ"),
+    ("NASACORT", "BURUN İLACI"),
+    ("REGEN-D", "CİLT İLACI (YARA İYİLEŞTİRİCİ)"),
+    ("DYMISTA", "BURUN İLACI"),
+    ("XALACOM", "GLOKOM İLACI"),
+    ("MOXAGUT", "GÖZ İLACI"),
+    ("MOKSIFLOKSAS", "ANTİBİYOTİK"),
+    ("TOLPERON", "KAS GEVŞETİCİ"),
+    ("ITRAXYL", "MANTAR İLACI"),
+    ("CANDIMAX", "MANTAR İLACI"),
+    ("AKLOFEN", "AĞRI KESİCİ"),               # aseklofenak
+    ("ASEKLOFENAK", "AĞRI KESİCİ"),
+    ("LOPID", "KOLESTEROL İLACI"),
+    ("GEMFIBROZIL", "KOLESTEROL İLACI"),
+    ("SINAKORT-A", "KORTİZON TEDAVİSİ"),
+    ("TRIAMSINOLON", "KORTİZON TEDAVİSİ"),
+    ("KALIDREN", "TANSİYON İLACI"),           # torasemid
+    ("TRIANSERIL", "TANSİYON İLACI"),         # triamteren+HCT
+    ("TRIAMTERIL", "TANSİYON İLACI"),
+    ("TRIAMTEREN", "TANSİYON İLACI"),
+    ("TIOPATI-B", "B VİTAMİNİ DESTEĞİ"),
+    ("IBANOS", "OSTEOPOROZ İLACI"),           # ibandronik
+    ("IBANDRON", "OSTEOPOROZ İLACI"),
+    ("BRONTIO", "ASTIM İLACI"),               # tiotropium
+    ("CARDOFIX", "TANSİYON İLACI"),
+    ("ATEROZ", "KOLESTEROL İLACI"),           # atorvastatin (önceki yanlış kategori düzeltildi)
+    ("EXAGYN", "KADIN HASTALIKLARINDA"),
+    ("ULTRAPROCT", "HEMOROİD İLACI"),
+    ("HELIPAK", "MİDE İLACI"),                # H. pylori tedavi paketi
+    ("INSOMIN", "UYKU İLACI"),                # doksilamin
+    ("UNISOM", "UYKU İLACI"),
+    ("DOKSILAMIN", "UYKU İLACI"),
+    ("ESOM", "MİDE İLACI"),                   # esomeprazol
+    ("PROSEK", "MİDE İLACI"),                 # omeprazol
+    ("PENEPIN", "ACİL İLACI"),                # epinefrin oto-enjektör
+    ("AXID", "MİDE İLACI"),                   # nizatidin
+    ("NIZATIDIN", "MİDE İLACI"),
+    ("SANTAFER", "DEMİR DESTEĞİ"),
+    ("FLESSI", "MİDE İLACI"),                 # rabeprazol
+    ("BRUMETON", "GÖZ İLACI"),                # betametazon göz
+    ("ALBACORT", "CİLT İLACI (KORTİZON)"),
+    ("ARISTU", "KANSER İLACI"),               # anastrozol
+    ("CODERMO", "CİLT İLACI (KORTİZON)"),
+    ("LUDIOMIL", "ANTİDEPRESAN"),             # maprotilin
+    ("MAPROTILIN", "ANTİDEPRESAN"),
+    ("HEMANGIOL", "KALP RİTM İLACI"),         # propranolol pediatrik
+    ("CALCI-NET", "KALSİYUM DESTEĞİ"),
+    ("MODIOGEN", "UYANIKLIK İLACI"),          # modafinil
+    ("MODAFINIL", "UYANIKLIK İLACI"),
+    ("KLOGEL-A", "KAN SULANDIRICI"),          # klopidogrel+aspirin
+    ("KOLSIN", "FMF / GUT TEDAVİSİ"),         # kolşisin
+    ("KOLŞIN", "FMF / GUT TEDAVİSİ"),
+    ("RUPAFIN", "ALLERJİ / KAŞINTI İLACI"),   # rupatadin
+    ("RUPATADIN", "ALLERJİ / KAŞINTI İLACI"),
+    ("ARMEC", "PARAZİT İLACI"),               # ivermektin
+    ("IVERMEKTIN", "PARAZİT İLACI"),
+    ("MEBENDAZOL", "PARAZİT İLACI"),
+    ("VERMAZOL", "PARAZİT İLACI"),
+    ("MEBEN", "PARAZİT İLACI"),
+    ("VERMOX", "PARAZİT İLACI"),
+    ("VILDABET", "DİYABET"),                  # vildagliptin+metformin
+    ("METICURE", "KORTİZON TEDAVİSİ"),
+    ("VEMCAINE", "LOKAL ANESTEZİK"),
+    ("EVIGEN", "E VİTAMİNİ DESTEĞİ"),
+    ("SWISS ENERGY", "VİTAMİN DESTEĞİ"),
+    ("OLEDRO", "AĞRI KESİCİ - ATEŞ DÜŞÜRÜCÜ"),  # parasetamol pediatrik
+    ("FORZA", "AĞRI KESİCİ - ATEŞ DÜŞÜRÜCÜ"),
+    ("RELAMAX", "UYKU İLACI"),                # melatonin
+    ("MELATONIN", "UYKU İLACI"),
+    ("CIRCADIN", "UYKU İLACI"),
+    ("GADONANS", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("NEOTIGASON", "SEDEF HASTALIĞI İLACI"),
+    ("ASITRETIN", "SEDEF HASTALIĞI İLACI"),
+    ("DIVINA", "HORMON"),                     # estradiol+MPA
+    ("BIOKADIN", "KADIN HASTALIKLARINDA"),
+    ("ACLASTA", "OSTEOPOROZ İLACI"),          # zoledronik
+    ("TERBIN", "MANTAR İLACI"),
+    ("SEPTIX", "BOĞAZ SPREYİ"),
+    ("PAFESAN", "BOĞAZ SPREYİ"),
+    ("BENZYDEX", "AĞIZ-DİŞ İLACI"),
+    ("LOMOTIL", "İSHAL KESİCİ"),              # difenoksilat
+    ("DIFENOKSILAT", "İSHAL KESİCİ"),
+    ("OFTOMIX", "GÖZ İLACI"),
+    ("COLNAR", "KOLESTEROL İLACI"),           # atorvastatin
+    ("FUSIDAS", "CİLT İLACI (ANTİBİYOTİK)"),
+    ("CHORIOMON", "KISIRLIK TEDAVİSİ"),
+    ("TAMIDRA", "PROSTAT İLACI"),             # tamsulosin MR
+    ("JETEX", "LOKAL ANESTEZİK"),
+    ("ENDOXAN", "KANSER İLACI"),
+    ("NEULASTIM", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("MULTICOLD", "GRİP / SOĞUK ALGINLIĞINDA"),
+    ("URESAL", "CİLT İLACI (DIŞ KULLANIM)"),
+    ("KERASAL", "CİLT İLACI (DIŞ KULLANIM)"),
+    ("BRONCHOREST", "ASTIM İLACI"),
+    ("ELLEACNELLE", "DOĞUM KONTROL"),
+    ("DROSETIL", "DOĞUM KONTROL"),
+    ("DIANE", "DOĞUM KONTROL"),
+    ("FEMARIS", "KALSİYUM DESTEĞİ"),
+    ("BRITIL-T", "GLOKOM İLACI"),
+    ("TRIMOKS", "ANTİBİYOTİK"),               # kotrimoksazol
+    ("KOTRIMOKSAZOL", "ANTİBİYOTİK"),
+    ("ALBAREN", "AĞRI KESİCİ"),               # diklofenak veya benzeri jel
+    ("INFLADOX", "AĞRI KESİCİ"),
+    ("ETOFAST", "AĞRI KESİCİ"),
+    ("THERMO", "AĞRI KESİCİ"),
+    # Yine MİDE/ÖKSÜRÜK/ALERJİ
+    ("LEVODROP", "ALLERJİ / KAŞINTI İLACI"),
+    ("LEVOSET", "ALLERJİ / KAŞINTI İLACI"),
+    # OFTALMİK Anestezi/Antibiyotik
+    ("BRITIL", "GÖZ İLACI"),
+    # FMF
+    ("COLCHIDOZA", "FMF / GUT TEDAVİSİ"),
+    ("KOL-DOZ", "FMF / GUT TEDAVİSİ"),
+    # GUT
+    ("PROBENECID", "ÜRİK ASİT İLACI"),
+    # ALZH
+    ("ALZAIM", "ALZHEİMER İLACI"),
+    ("MENRIST", "ALZHEİMER İLACI"),
+    # NÖROLEPSI
+    ("VYVANSE", "DEHB İLACI"),
+    # PARKİNSON
+    ("RASILEZ", "TANSİYON İLACI"),            # aliskiren
+    ("ALISKIREN", "TANSİYON İLACI"),
+    # Çocuk akut
+    ("CALPOL", "AĞRI KESİCİ - ATEŞ DÜŞÜRÜCÜ"),
+    # Otitis
+    ("OTOFA", "KULAK İLACI"),
+    ("OTOMIDONE", "KULAK İLACI"),
+    ("OTOSEPTIL", "KULAK İLACI"),
+    ("CILOXAN", "GÖZ İLACI"),                 # siprofloksasin göz
+    # Tüm sefin/sefa marka
+    ("KEFLOR", "ANTİBİYOTİK"),
+    ("KEFZOL", "ANTİBİYOTİK"),
+    ("KEFLEX", "ANTİBİYOTİK"),
+    ("CEFEKS", "ANTİBİYOTİK"),
+    ("PROSEFIN", "ANTİBİYOTİK"),
+    # KAN BASINCI KOMBİNASYONLAR
+    ("LERCATEN", "TANSİYON İLACI"),
+    ("ZESTRA", "TANSİYON İLACI"),
+    ("AMOZARTAN", "TANSİYON İLACI"),          # amlodipin+losartan
+    # GUT
+    ("AZURIX", "TANSİYON İLACI"),
+    # SPESİFİK İLAÇLAR
+    ("RELESTAT", "GÖZ İLACI"),
+    ("LASTACAFT", "GÖZ İLACI"),
+    # GASTROENTERİT
+    ("CARBOSORB", "İSHAL KESİCİ"),
+    ("SMECTA", "İSHAL KESİCİ"),
+    ("HIDRASEC", "İSHAL KESİCİ"),
+    ("RACECADOTRIL", "İSHAL KESİCİ"),
+    # PERİYODONTAL
+    ("ELYZOL", "AĞIZ-DİŞ İLACI"),
+    # MİYOM
+    ("ESMYA", "HORMON"),
+    # BRONŞİYAL
+    ("PRONTODOL", "AĞRI KESİCİ"),
 ]
 
 

@@ -144,6 +144,13 @@ DEFAULT_SURE_GUN = {
     "KOLON TEMİZLEYİCİ":             1,
     "AKCİĞER İLACI (YENİDOĞAN)":     1,
     "KALP YETMEZLİĞİ İLACI":        30,
+    # ---- batch 6 ----
+    "HEPATİT İLACI":                30,
+    "CİLT İLACI (YARA İYİLEŞTİRİCİ)": 14,
+    "UYKU İLACI":                    7,
+    "UYANIKLIK İLACI":              30,
+    "PARAZİT İLACI":                 1,
+    "KULAK İLACI":                   7,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -388,6 +395,18 @@ DEFAULT_UYARI = {
         "Hastane ortamında bebek doktoru tarafından uygulanır.",
     "KALP YETMEZLİĞİ İLACI":
         "Her gün aynı saatlerde düzenli alınız. Tuz alımına dikkat ediniz, ağırlığınızı takip ediniz.",
+    "HEPATİT İLACI":
+        "Her gün aynı saatte düzenli kullanınız. Doktor önerisi olmadan bırakmayınız.",
+    "CİLT İLACI (YARA İYİLEŞTİRİCİ)":
+        "Sadece dış kullanım içindir. Temiz cilt bölgesine uygulayınız.",
+    "UYKU İLACI":
+        "Yatmadan 30 dakika önce alınız. Sabah uykululuk yapabilir, dikkat ediniz.",
+    "UYANIKLIK İLACI":
+        "Sabah aç karnına alınız. Akşam alımı uykuyu engelleyebilir.",
+    "PARAZİT İLACI":
+        "Tek doz veya doktor önerisine göre kullanılır. Aile üyeleri ile birlikte tedavi olunması gerekebilir.",
+    "KULAK İLACI":
+        "Kullanmadan önce şişeyi avucunuzda ısıtınız. Birden fazla kişi tarafından kullanılmamalıdır.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -509,6 +528,12 @@ DEFAULT_DOZ = {
     "KOLON TEMİZLEYİCİ":    {"gunluk_kez": 1},
     "AKCİĞER İLACI (YENİDOĞAN)": {"gunluk_kez": 1},
     "KALP YETMEZLİĞİ İLACI": {"gunluk_kez": 2, "saat_arasi": 12},
+    "HEPATİT İLACI":        {"gunluk_kez": 1, "yemek": "yemekle"},
+    "CİLT İLACI (YARA İYİLEŞTİRİCİ)": {"gunluk_kez": 2},
+    "UYKU İLACI":           {"gunluk_kez": 1, "kullanim_zamani": ["gece"]},
+    "UYANIKLIK İLACI":      {"gunluk_kez": 1, "kullanim_zamani": ["sabah"]},
+    "PARAZİT İLACI":        {"gunluk_kez": 1},
+    "KULAK İLACI":          {"gunluk_kez": 2},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

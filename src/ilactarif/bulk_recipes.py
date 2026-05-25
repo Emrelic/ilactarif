@@ -139,6 +139,11 @@ DEFAULT_SURE_GUN = {
     "KARIN GAZI İLACI":              7,
     "E VİTAMİNİ DESTEĞİ":           30,
     "ACİL İLACI":                    1,
+    # ---- batch 5 ----
+    "BÖBREK HASTALIĞI İLACI":       30,
+    "KOLON TEMİZLEYİCİ":             1,
+    "AKCİĞER İLACI (YENİDOĞAN)":     1,
+    "KALP YETMEZLİĞİ İLACI":        30,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -375,6 +380,14 @@ DEFAULT_UYARI = {
         "Her gün aynı saatte yemekle birlikte alınız.",
     "ACİL İLACI":
         "Acil durumlarda kullanılır. Saklama koşullarına dikkat ediniz, son kullanma tarihini takip ediniz.",
+    "BÖBREK HASTALIĞI İLACI":
+        "Doktorun belirlediği şekilde kullanınız. Yemeklerle birlikte alınması gerekiyorsa belirtilen şekilde uygulayınız.",
+    "KOLON TEMİZLEYİCİ":
+        "İşlem öncesi belirtilen saatlerde, bol su ile karıştırarak içiniz. Yakınınızda tuvalet bulundurunuz.",
+    "AKCİĞER İLACI (YENİDOĞAN)":
+        "Hastane ortamında bebek doktoru tarafından uygulanır.",
+    "KALP YETMEZLİĞİ İLACI":
+        "Her gün aynı saatlerde düzenli alınız. Tuz alımına dikkat ediniz, ağırlığınızı takip ediniz.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -492,6 +505,10 @@ DEFAULT_DOZ = {
     "KARIN GAZI İLACI":     {"gunluk_kez": 3, "yemek": "yemekten sonra"},
     "E VİTAMİNİ DESTEĞİ":   {"gunluk_kez": 1, "yemek": "yemekle"},
     "ACİL İLACI":           {"gunluk_kez": 1},
+    "BÖBREK HASTALIĞI İLACI": {"gunluk_kez": 3, "yemek": "yemekle"},
+    "KOLON TEMİZLEYİCİ":    {"gunluk_kez": 1},
+    "AKCİĞER İLACI (YENİDOĞAN)": {"gunluk_kez": 1},
+    "KALP YETMEZLİĞİ İLACI": {"gunluk_kez": 2, "saat_arasi": 12},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

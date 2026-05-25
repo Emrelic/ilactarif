@@ -1311,6 +1311,126 @@ ETKEN_MADDE_KATEGORI = [
     # SHOCK / AIRWAY
     ("ADRENALIN", "ACİL İLACI"),
     ("EPIPEN", "ACİL İLACI"),
+
+    # ============ BATCH 5 — Daha fazla marka ============
+    ("ACNEGEN", "SİVİLCE İLACI"),
+    ("ADVAGRAF", "İMMÜNOSUPRESİF İLAÇ"),
+    ("AIRTIDE", "ASTIM İLACI"),
+    ("BYETTA", "DİYABET"),
+    ("EKSENATID", "DİYABET"),
+    ("CALBICOR", "KALSİYUM DESTEĞİ"),
+    ("CEC", "ANTİBİYOTİK"),               # sefaklor
+    ("CLARISCAN", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("CLIN", "ANTİBİYOTİK"),              # klindamisin
+    ("CLINDAMYCIN", "ANTİBİYOTİK"),
+    ("CLONEX", "TANSİYON İLACI"),         # klonidin
+    ("KLONIDIN", "TANSİYON İLACI"),
+    ("DEXTROCIN", "CİLT İLACI (ANTİBİYOTİK)"),
+    ("ENOX", "KAN SULANDIRICI (İĞNE)"),    # enoksaparin jenerik
+    ("EXODERIL", "MANTAR İLACI"),          # naftifin
+    ("NAFTIFIN", "MANTAR İLACI"),
+    ("EXTRAIR", "ASTIM İLACI"),
+    ("FERPLEX", "DEMİR DESTEĞİ"),
+    ("FUSIX", "TANSİYON İLACI"),           # furosemid
+    ("GLISERIN", "KABIZLIK İLACI"),
+    ("HEPAZEC", "KARACİĞER İLACI"),
+    ("KATARIN", "GÖZ İLACI"),
+    ("KEYDROPS", "KURU GÖZ RAHATSIZLIĞINDA"),
+    ("KONGEST", "BURUN AÇICI"),
+    ("KONSENIDAT", "DEHB İLACI"),          # konsantrat methylphenidate? metilfenidat
+    ("KOPAQ", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("MAXIDEX", "GÖZ İLACI"),              # deksametazon göz
+    ("MISOL", "MİDE İLACI"),               # misoprostol
+    ("MISOPROSTOL", "MİDE İLACI"),
+    ("NETIRA", "GÖZ İLACI"),
+    ("NETILDEX", "GÖZ İLACI"),
+    ("RIF", "VEREM İLACI"),
+    ("SELOVITA-D", "D VİTAMİNİ"),
+    ("SETINOX", "ANTİDEPRESAN"),           # sertralin
+    ("SPRAMAX", "BOĞAZ SPREYİ"),
+    ("TELVIS", "TANSİYON İLACI"),          # telmisartan
+    ("TEMOMID", "KANSER İLACI"),           # temozolomid
+    ("TERA-D", "D VİTAMİNİ"),
+    ("THIOCILLINE", "ANTİBİYOTİK"),
+    ("TOBREX", "GÖZ İLACI"),               # tobramisin
+    ("TOPIKAZOL", "MANTAR İLACI"),
+    ("TOLVON", "ANTİDEPRESAN"),            # mianserin
+    ("MIANSERIN", "ANTİDEPRESAN"),
+    ("TRIBEKSOL", "B VİTAMİNİ DESTEĞİ"),
+    ("TRIGAST", "MİDE İLACI"),
+    ("UROPAN", "AŞIRI AKTİF MESANE İLACI"),
+    ("URIKOLIZ", "ÜRİK ASİT İLACI"),
+    ("VILDEGA", "DİYABET"),                # vildagliptin
+    ("VITABIOL", "VİTAMİN DESTEĞİ"),
+    ("WINCEF", "ANTİBİYOTİK"),             # sefaleksin
+    ("ZARZIO", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("FILGRASTIM", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("DULESTER", "ANTİDEPRESAN"),          # duloksetin
+    ("PALLADA", "TANSİYON İLACI"),         # perindopril+amlodipin?
+    ("DYLOXIA", "ANTİDEPRESAN"),
+    ("EFAMAT", "TANSİYON İLACI"),
+    ("RECBUTIN", "ANTİDEPRESAN"),          # nortriptilin
+    ("ARBESTA", "TANSİYON İLACI"),
+    ("BENITIDE", "MİDE İLACI"),
+    ("DAFLON", "TOPLARDAMAR / VARİS İLACI"),  # zaten var
+    ("FRAVEN", "ANTİDEPRESAN"),            # fluvoksamin
+    ("FLUVOKSAMIN", "ANTİDEPRESAN"),
+    ("DULOSER", "ANTİDEPRESAN"),
+    ("FONKSERA", "ANTİDEPRESAN"),
+    ("FLOSEF", "ANTİBİYOTİK"),
+    ("OKSAPAR", "KAN SULANDIRICI (İĞNE)"),  # zaten var
+    ("ATEROZ", "GÖZ İLACI"),
+    ("APFECTO", "ANTİDEPRESAN"),
+    ("EBAFIT", "ALLERJİ / KAŞINTI İLACI"),  # ebastin
+    ("EBASTIN", "ALLERJİ / KAŞINTI İLACI"),
+    ("ANTI-FOSFAT", "BÖBREK HASTALIĞI İLACI"),
+    ("SUTRIL", "TANSİYON İLACI"),          # torasemid
+    ("TORASEMID", "TANSİYON İLACI"),
+    ("DEPALEX", "ANTİDEPRESAN"),
+    ("ACULAR", "GÖZ İLACI"),               # ketorolak göz
+    ("TIMOPRESS", "GLOKOM İLACI"),
+    ("LATIM", "GLOKOM İLACI"),
+    ("FERAMIN", "DEMİR DESTEĞİ"),
+    ("ECTIN", "MAGNEZYUM DESTEĞİ"),
+    ("MAGNORM", "MAGNEZYUM DESTEĞİ"),
+    ("MAGNEROT", "MAGNEZYUM DESTEĞİ"),
+    ("VITALIPID", "BESLENME ÜRÜNÜ"),
+    ("CERNEVIT", "VİTAMİN DESTEĞİ"),
+    # diyabet beslenme
+    ("DIBEN", "BESLENME ÜRÜNÜ"),
+    ("FORTIMEL", "BESLENME ÜRÜNÜ"),
+    # KAS - SPAZMOLITIK
+    ("LIORESAL", "KAS GEVŞETİCİ"),
+    ("BAKLOFEN", "KAS GEVŞETİCİ"),
+    # GASTRO ENDOSKOPI HAZIRLIK
+    ("FORTRANS", "KOLON TEMİZLEYİCİ"),
+    ("ENDOFALK", "KOLON TEMİZLEYİCİ"),
+    ("CITRAFLEET", "KOLON TEMİZLEYİCİ"),
+    # ZONA / KANSER
+    ("SUTENT", "KANSER İLACI"),
+    ("GLEEVEC", "KANSER İLACI"),
+    ("IMATINIB", "KANSER İLACI"),
+    ("SUTENB", "KANSER İLACI"),
+    ("TARCEVA", "KANSER İLACI"),
+    ("ERLOTINIB", "KANSER İLACI"),
+    # KEMOTERAPİ DESTEK
+    ("NEULASTA", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    # MS / NÖROLOJİ
+    ("PLEGRIDY", "MS İLACI"),
+    ("BETAFERON", "MS İLACI"),
+    # YENİDOĞAN
+    ("CUROSURF", "AKCİĞER İLACI (YENİDOĞAN)"),
+    ("SURVANTA", "AKCİĞER İLACI (YENİDOĞAN)"),
+    # KALP YETMEZLİĞİ
+    ("ENTRESTO", "KALP YETMEZLİĞİ İLACI"),
+    ("SAKUBITRIL", "KALP YETMEZLİĞİ İLACI"),
+    # DİĞER
+    ("DECONTRACTYL", "KAS GEVŞETİCİ"),
+    ("VOLON-A", "KORTİZON TEDAVİSİ"),
+    ("DEPO-MEDROL", "KORTİZON TEDAVİSİ"),
+    ("CALCIJEX", "KALSİYUM DESTEĞİ"),
+    ("ROCALTROL", "D VİTAMİNİ"),
+    ("KALSITRIOL", "D VİTAMİNİ"),
 ]
 
 

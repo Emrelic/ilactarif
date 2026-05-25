@@ -158,6 +158,10 @@ DEFAULT_SURE_GUN = {
     "ELEKTROLİT":                    1,
     "ACİL DOĞUM KONTROL":            1,
     "ALKOL BAĞIMLILIĞI":            30,
+    "BAŞ AĞRISI İLACI":              1,
+    "BİTKİSEL DESTEK":              30,
+    "TIBBİ MALZEME":                 1,
+    "GIDA TAKVİYESİ":               30,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -426,6 +430,14 @@ DEFAULT_UYARI = {
         "Korunmasız ilişki sonrası 72 saat içinde alınız. Düzenli doğum kontrol yöntemi değildir.",
     "ALKOL BAĞIMLILIĞI":
         "Doktor takibinde kullanılır. Alkol alındığında yan etkiler ortaya çıkabilir.",
+    "BAŞ AĞRISI İLACI":
+        "Baş ağrısı oldukça kullanınız. Aşırı kullanım kronik baş ağrısı yapabilir.",
+    "BİTKİSEL DESTEK":
+        "Her gün düzenli kullanınız. Doktorunuza diğer ilaçlarınızla etkileşim açısından danışınız.",
+    "TIBBİ MALZEME":
+        "Kullanım talimatlarını ürün kutusundan okuyunuz.",
+    "GIDA TAKVİYESİ":
+        "Kullanım talimatına göre alınız. İlaç değildir, tedavi yerine geçmez.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -559,6 +571,10 @@ DEFAULT_DOZ = {
     "ELEKTROLİT":           {"gunluk_kez": 1},
     "ACİL DOĞUM KONTROL":   {"gunluk_kez": 1},
     "ALKOL BAĞIMLILIĞI":    {"gunluk_kez": 1},
+    "BAŞ AĞRISI İLACI":     {"gunluk_kez": 1},
+    "BİTKİSEL DESTEK":      {"gunluk_kez": 2, "yemek": "tok"},
+    "TIBBİ MALZEME":        {"gunluk_kez": 1},
+    "GIDA TAKVİYESİ":       {"gunluk_kez": 1, "yemek": "yemekle"},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

@@ -109,6 +109,31 @@ DEFAULT_SURE_GUN = {
     "MİDE İLACI (REFLÜ)":           14,
     "ZAYIFLAMA İLACI":              28,
     "GÖZ İLACI":                     7,
+    # ---- batch 2/3 yeni kategoriler ----
+    "ANTİBİYOTİK (İDRAR YOLU)":      3,
+    "KALP RİTM İLACI":              30,
+    "KANAMA DURDURUCU":              3,
+    "RADYOLOJİK KONTRAST MADDESİ":   1,
+    "AŞI":                           1,
+    "BÜYÜME HORMONU":               30,
+    "TANSİYON İLACI / PROSTAT İLACI": 30,
+    "SİVİLCE İLACI":                60,
+    "CİLT İLACI (YANIK)":           14,
+    "CİLT İLACI (LEKE)":            30,
+    "SAÇ DÖKÜLMESİ İLACI":          90,
+    "HEMOROİD İLACI":                7,
+    "TOPLARDAMAR / VARİS İLACI":    30,
+    "VARİS İLACI":                  30,
+    "KARACİĞER İLACI":              30,
+    "SİNDİRİM ENZİMİ":              30,
+    "DOLAŞIM / HAFIZA DESTEĞİ":     30,
+    "SİGARA BIRAKMA":               30,
+    "MS İLACI":                     30,
+    "MİGREN İLACI":                  1,
+    "BİYOLOJİK İLAÇ":               28,
+    "LOKAL ANESTEZİK":               1,
+    "SOMATOSTATİN İLACI":           30,
+    "VEREM İLACI":                 180,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -288,6 +313,55 @@ DEFAULT_UYARI = {
         "Diyet ve egzersiz ile birlikte etki gösterir. Yağlı yemeklerden kaçınınız.",
     "GÖZ İLACI":
         "Şişe ucunu göze değdirmeyiniz. Birden fazla kişi tarafından kullanılmamalıdır.",
+    # ---- batch 2/3 yeni kategoriler ----
+    "ANTİBİYOTİK (İDRAR YOLU)":
+        "Bol su tüketiniz. Tek doz olarak yatmadan önce, idrarınızı tam boşalttıktan sonra alınız.",
+    "KALP RİTM İLACI":
+        "Her gün aynı saatlerde düzenli alınız. Doktor önerisi olmadan bırakmayınız.",
+    "KANAMA DURDURUCU":
+        "Doktorun belirlediği süre boyunca kullanınız. Aşırı pıhtılaşma riskinde belirti olursa doktora başvurunuz.",
+    "RADYOLOJİK KONTRAST MADDESİ":
+        "Sağlık ocağı / hastane ortamında uygulanır. İşlem öncesi açlık gerekebilir.",
+    "AŞI":
+        "Sağlık personeli tarafından uygulanır. Saklama zincirini bozmayınız.",
+    "BÜYÜME HORMONU":
+        "Buzdolabında saklayınız (2-8°C). Her gün aynı saatte, akşam uygulayınız.",
+    "TANSİYON İLACI / PROSTAT İLACI":
+        "İlk doz baş dönmesi yapabilir, ayağa kalkarken yavaş hareket ediniz. Her gün aynı saatte alınız.",
+    "SİVİLCE İLACI":
+        "Güneşten korununuz, koruyucu krem kullanınız. Yan etkilerini takip ediniz.",
+    "CİLT İLACI (YANIK)":
+        "Sadece dış kullanım içindir. Etkilenen yanık bölgesine ince tabaka halinde sürünüz.",
+    "CİLT İLACI (LEKE)":
+        "Sadece dış kullanım içindir. Güneşten korunmak için yüksek faktörlü güneş kremi kullanınız.",
+    "SAÇ DÖKÜLMESİ İLACI":
+        "Saç derisi kuru iken sürünüz. 3-6 ay düzenli kullanım sonrası etki başlar.",
+    "HEMOROİD İLACI":
+        "Tuvaletten sonra, temizlik sonrası uygulayınız. Etkili olması için yeterli sürede kullanılmalıdır.",
+    "TOPLARDAMAR / VARİS İLACI":
+        "Her gün aynı saatte düzenli alınız. Bol su içiniz, ayaklarınızı yüksekte tutunuz.",
+    "VARİS İLACI":
+        "Doktorun belirlediği süre boyunca kullanınız. Sklerozan tedavi ise hastanede yapılır.",
+    "KARACİĞER İLACI":
+        "Her gün aynı saatte düzenli kullanınız. Doktor takibinde olunuz.",
+    "SİNDİRİM ENZİMİ":
+        "Yemekle birlikte, ana yemeklerle alınız. Ezmeyiniz, çiğnemeyiniz.",
+    "DOLAŞIM / HAFIZA DESTEĞİ":
+        "Yemekle birlikte alınız. Etkisinin başlaması için en az 4-6 hafta gerekir.",
+    "SİGARA BIRAKMA":
+        "Sigarayı bırakma sürecinde destek için kullanılır. Aşırı dozdan kaçınınız.",
+    "MS İLACI":
+        "Saklama koşullarına dikkat ediniz. Sağlık ocağı / hastane ortamında uygulanır.",
+    "MİGREN İLACI":
+        "Migren atağının başlangıcında erken alınız. 24 saatte 2 dozdan fazla alınmaz.",
+    "BİYOLOJİK İLAÇ":
+        "Buzdolabında saklayınız (2-8°C). Enfeksiyon belirtilerinde doktora başvurunuz.",
+    "LOKAL ANESTEZİK":
+        "Sağlık personeli tarafından uygulanır.",
+    "SOMATOSTATİN İLACI":
+        "Buzdolabında saklayınız. Doktorun belirlediği dozda kullanınız.",
+    "VEREM İLACI":
+        "Tedaviyi kesinlikle yarıda bırakmayınız. Her gün düzenli, aç karnına alınız.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -376,6 +450,31 @@ DEFAULT_DOZ = {
     "NÖROLOJİ İLACI":       {"gunluk_kez": 3, "yemek": "yemekle"},
     "KISIRLIK TEDAVİSİ":    {"gunluk_kez": 1},
     "BAĞIŞIKLIK SİSTEMİ İLACI": {"gunluk_kez": 1},
+    # ---- batch 2/3 ----
+    "ANTİBİYOTİK (İDRAR YOLU)": {"gunluk_kez": 1, "kullanim_zamani": ["gece"], "yemek": "aç"},
+    "KALP RİTM İLACI":      {"gunluk_kez": 1, "yemek": "tok"},
+    "KANAMA DURDURUCU":     {"gunluk_kez": 3, "yemek": "fark etmez"},
+    "RADYOLOJİK KONTRAST MADDESİ": {"gunluk_kez": 1},
+    "AŞI":                  {"gunluk_kez": 1},
+    "BÜYÜME HORMONU":       {"gunluk_kez": 1, "kullanim_zamani": ["akşam"]},
+    "TANSİYON İLACI / PROSTAT İLACI": {"gunluk_kez": 1, "kullanim_zamani": ["gece"]},
+    "SİVİLCE İLACI":        {"gunluk_kez": 1, "kullanim_zamani": ["akşam"]},
+    "CİLT İLACI (YANIK)":   {"gunluk_kez": 2},
+    "CİLT İLACI (LEKE)":    {"gunluk_kez": 2},
+    "SAÇ DÖKÜLMESİ İLACI":  {"gunluk_kez": 2},
+    "HEMOROİD İLACI":       {"gunluk_kez": 3},
+    "TOPLARDAMAR / VARİS İLACI": {"gunluk_kez": 2, "yemek": "tok"},
+    "VARİS İLACI":          {"gunluk_kez": 1},
+    "KARACİĞER İLACI":      {"gunluk_kez": 2, "yemek": "tok"},
+    "SİNDİRİM ENZİMİ":      {"gunluk_kez": 3, "yemek": "yemekle"},
+    "DOLAŞIM / HAFIZA DESTEĞİ": {"gunluk_kez": 2, "yemek": "tok"},
+    "SİGARA BIRAKMA":       {"gunluk_kez": 1},
+    "MS İLACI":             {"gunluk_kez": 1},
+    "MİGREN İLACI":         {"gunluk_kez": 1},
+    "BİYOLOJİK İLAÇ":       {"gunluk_kez": 1},
+    "LOKAL ANESTEZİK":      {"gunluk_kez": 1},
+    "SOMATOSTATİN İLACI":   {"gunluk_kez": 1},
+    "VEREM İLACI":          {"gunluk_kez": 1, "kullanim_zamani": ["sabah"], "yemek": "aç"},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

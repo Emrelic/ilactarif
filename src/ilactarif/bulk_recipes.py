@@ -151,6 +151,13 @@ DEFAULT_SURE_GUN = {
     "UYANIKLIK İLACI":              30,
     "PARAZİT İLACI":                 1,
     "KULAK İLACI":                   7,
+    # ---- batch 7 ----
+    "ALBUMİN / IV":                  1,
+    "HEMOFİLİ İLACI":                7,
+    "HIV İLACI":                    30,
+    "ELEKTROLİT":                    1,
+    "ACİL DOĞUM KONTROL":            1,
+    "ALKOL BAĞIMLILIĞI":            30,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -407,6 +414,18 @@ DEFAULT_UYARI = {
         "Tek doz veya doktor önerisine göre kullanılır. Aile üyeleri ile birlikte tedavi olunması gerekebilir.",
     "KULAK İLACI":
         "Kullanmadan önce şişeyi avucunuzda ısıtınız. Birden fazla kişi tarafından kullanılmamalıdır.",
+    "ALBUMİN / IV":
+        "Hastane ortamında uygulanır. Saklama koşullarına dikkat ediniz.",
+    "HEMOFİLİ İLACI":
+        "Saklama koşullarına dikkat ediniz. Kanama anında veya profilaktik olarak uygulanır.",
+    "HIV İLACI":
+        "Her gün aynı saatte düzenli alınız. Doktor önerisi olmadan asla bırakmayınız.",
+    "ELEKTROLİT":
+        "Sağlık personeli tarafından uygulanır.",
+    "ACİL DOĞUM KONTROL":
+        "Korunmasız ilişki sonrası 72 saat içinde alınız. Düzenli doğum kontrol yöntemi değildir.",
+    "ALKOL BAĞIMLILIĞI":
+        "Doktor takibinde kullanılır. Alkol alındığında yan etkiler ortaya çıkabilir.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -534,6 +553,12 @@ DEFAULT_DOZ = {
     "UYANIKLIK İLACI":      {"gunluk_kez": 1, "kullanim_zamani": ["sabah"]},
     "PARAZİT İLACI":        {"gunluk_kez": 1},
     "KULAK İLACI":          {"gunluk_kez": 2},
+    "ALBUMİN / IV":         {"gunluk_kez": 1},
+    "HEMOFİLİ İLACI":       {"gunluk_kez": 1},
+    "HIV İLACI":            {"gunluk_kez": 1, "yemek": "yemekle"},
+    "ELEKTROLİT":           {"gunluk_kez": 1},
+    "ACİL DOĞUM KONTROL":   {"gunluk_kez": 1},
+    "ALKOL BAĞIMLILIĞI":    {"gunluk_kez": 1},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

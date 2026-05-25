@@ -622,8 +622,8 @@ ETKEN_MADDE_KATEGORI = [
     ("ZADITEN", "ALLERJİ / KAŞINTI İLACI"),
     ("LEVMONT", "ASTIM İLACI"),  # levosetirizin+montelukast
     ("ZESPIRA", "ASTIM İLACI"),  # montelukast
-    ("M-FURO", "BURUN İLACI"),
-    ("MOMECON", "BURUN İLACI"),
+    ("M-FURO", "CİLT İLACI (KORTİZON)"),
+    ("MOMECON", "CİLT İLACI (KORTİZON)"),
     ("INFLACORT", "KORTİZON TEDAVİSİ"),
     ("BEKLAZON", "ASTIM İLACI"),
 
@@ -1012,11 +1012,11 @@ ETKEN_MADDE_KATEGORI = [
     ("NETIRA", "GÖZ İLACI"),
     ("NETILDEX", "GÖZ İLACI"),
     ("EYESTIL", "KURU GÖZ RAHATSIZLIĞINDA"),
-    ("DEXTROCIN", "GÖZ İLACI"),
+    ("DEXTROCIN", "CİLT İLACI (ANTİBİYOTİK)"),
     ("DESMONT", "GÖZ İLACI"),
     ("KEYDROPS", "GÖZ İLACI"),
     ("PINADES", "GÖZ İLACI"),
-    ("ATEROZ", "GÖZ İLACI"),  # iyot çözeltisi
+    ("ATEROZ", "KOLESTEROL İLACI"),  # atorvastatin
     # İMMÜNOSUPRESİF
     ("IMURAN", "İMMÜNOSUPRESİF İLAÇ"),
     ("AZATIOPRIN", "İMMÜNOSUPRESİF İLAÇ"),
@@ -1173,7 +1173,6 @@ ETKEN_MADDE_KATEGORI = [
     ("CALSIYUM DOBESILAT", "TOPLARDAMAR / VARİS İLACI"),
     ("DERMO-TROSYD", "MANTAR İLACI"),
     ("OCERAL", "MANTAR İLACI"),            # oxiconazole
-    ("OXEZOLE", "MANTAR İLACI"),
     ("FUNGOSAN", "MANTAR İLACI"),
     # GÖZ
     ("TAMPROST", "GLOKOM İLACI"),          # latanoprost
@@ -1186,7 +1185,7 @@ ETKEN_MADDE_KATEGORI = [
     ("MUSCORIL", "KAS GEVŞETİCİ"),         # zaten var
     ("TIYOKOLŞIKOSID", "KAS GEVŞETİCİ"),   # zaten var
     # MİDE
-    ("MAGNORM", "MİDE İLACI (REFLÜ)"),     # magaldrat
+    ("MAGNORM", "MAGNEZYUM DESTEĞİ"),
     ("OXEZOLE", "MİDE İLACI"),             # belki başka
     # GUT
     ("ALLOPURIM", "ÜRİK ASİT İLACI"),
@@ -2864,7 +2863,7 @@ ETKEN_MADDE_KATEGORI = [
     ("SUKROFER", "DEMİR DESTEĞİ"),
     ("FERTAMIR", "DEMİR DESTEĞİ"),
     ("FLIXON", "ASTIM İLACI"),
-    ("KEYDROPS", "BOĞAZ İLACI"),
+    ("KEYDROPS", "KURU GÖZ RAHATSIZLIĞINDA"),
     ("KURSEPT", "ANTİSEPTİK"),
     ("LANOLIN", "CİLT İLACI (DIŞ KULLANIM)"),
     ("MYCOSPOR", "MANTAR İLACI"),

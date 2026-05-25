@@ -542,6 +542,177 @@ ETKEN_MADDE_KATEGORI = [
 
     # ============ ZAYIFLAMA / İŞTAH KESİCİ ============
     ("ORLISTAT", "ZAYIFLAMA İLACI"), ("XENICAL", "ZAYIFLAMA İLACI"),
+    ("MOUNJARO", "DİYABET / KALP YETMEZ. / BÖBREK HAS."),
+    ("TIRZEPATID", "DİYABET / KALP YETMEZ. / BÖBREK HAS."),
+
+    # ============ BATCH 1 — ANTİBİYOTİK (yaygın marka adları) ============
+    ("SULCID", "ANTİBİYOTİK"), ("ALFASID", "ANTİBİYOTİK"),
+    ("MACROL", "ANTİBİYOTİK"), ("KLAMER", "ANTİBİYOTİK"),
+    ("CLASEM", "ANTİBİYOTİK"), ("ENFEXIA", "ANTİBİYOTİK"),
+    ("CEFTINEX", "ANTİBİYOTİK"), ("AZELTIN", "ANTİBİYOTİK"),
+    ("ZIMAKS", "ANTİBİYOTİK"), ("BITERAL", "ANTİBİYOTİK"),
+    ("FIXEF", "ANTİBİYOTİK"), ("CEFDIFIX", "ANTİBİYOTİK"),
+    ("ULTROX", "ANTİBİYOTİK"), ("CEMPES", "ANTİBİYOTİK"),
+    ("IESPOR", "ANTİBİYOTİK"), ("NOVOSEF", "ANTİBİYOTİK"),
+    ("UNACEFIN", "ANTİBİYOTİK"), ("MAKSIPOR", "ANTİBİYOTİK"),
+    ("DEPOSILIN", "ANTİBİYOTİK"), ("ORNISID", "ANTİBİYOTİK"),
+    ("BACTRIM", "ANTİBİYOTİK"), ("CLEOCIN", "ANTİBİYOTİK"),
+    ("ANDAZOL", "ANTİBİYOTİK"),  # albendazol antiparaziter
+    ("GENTA", "ANTİBİYOTİK"),    # gentamisin
+    ("INFEX", "ANTİBİYOTİK"),    # siprofloksasin
+    ("ZIVER", "ANTİVİRAL"),      # asiklovir
+    ("AKLOVIR", "ANTİVİRAL"), ("ASIVIRAL", "ANTİVİRAL"),
+    ("FLUCAN", "MANTAR İLACI"),
+    ("DIAFURYL", "İSHAL KESİCİ"),
+    ("MAFLOR", "PROBİYOTİK"),
+    ("FUCITEC", "CİLT İLACI (ANTİBİYOTİK)"),
+
+    # ============ BATCH 1 — TANSİYON ============
+    ("HIPERSAR", "TANSİYON İLACI"), ("EXCALIBA", "TANSİYON İLACI"),
+    ("IRDAPIN", "TANSİYON İLACI"), ("VASOXEN", "TANSİYON İLACI"),
+    ("CARDURA", "TANSİYON İLACI"), ("CANDEXIL", "TANSİYON İLACI"),
+    ("BETABLOK", "TANSİYON İLACI"), ("MONOPRIL", "TANSİYON İLACI"),
+    ("DILTIZEM", "TANSİYON İLACI"), ("TRIPLIXAM", "TANSİYON İLACI"),
+    ("TELMODIP", "TANSİYON İLACI"), ("CO-IRDA", "TANSİYON İLACI"),
+    ("HYZAAR", "TANSİYON İLACI"), ("CANDECARD", "TANSİYON İLACI"),
+    ("ENAPRIL", "TANSİYON İLACI"), ("SINOPRYL", "TANSİYON İLACI"),
+    ("GOPTEN", "TANSİYON İLACI"), ("MONOVAS", "TANSİYON İLACI"),
+    ("VASTAREL", "TANSİYON İLACI"),  # trimetazidin (angina)
+    ("MONOKET", "TANSİYON İLACI"),   # isosorbid (angina)
+    ("TANSIFA", "TANSİYON İLACI"),
+    ("SANELOC", "TANSİYON İLACI"),   # metoprolol
+
+    # ============ BATCH 1 — ANTİDEPRESAN / ANTİPSİKOTİK / ANKSİYOLİTİK ============
+    ("CEDRINA", "ANTİPSİKOTİK"), ("QUET", "ANTİPSİKOTİK"),
+    ("KETYA", "ANTİPSİKOTİK"), ("REXAPIN", "ANTİPSİKOTİK"),
+    ("RIXPER", "ANTİPSİKOTİK"),
+    ("CITOLES", "ANTİDEPRESAN"), ("PAXERA", "ANTİDEPRESAN"),
+    ("SECITA", "ANTİDEPRESAN"), ("SELECTRA", "ANTİDEPRESAN"),
+    ("REDEPRA", "ANTİDEPRESAN"), ("ZEDPRA", "ANTİDEPRESAN"),
+    ("ADELEKS", "ANTİDEPRESAN"),  # essitalopram
+    ("CITOL", "ANTİDEPRESAN"),    # sitalopram
+    ("ZOLAX", "ANKSİYOLİTİK"),    # alprazolam
+
+    # ============ BATCH 1 — AĞRI KESİCİ / KAS GEVŞETİCİ ============
+    ("DICLOMEC", "AĞRI KESİCİ"), ("LEODEX", "AĞRI KESİCİ"),
+    ("NIMES", "AĞRI KESİCİ"), ("KETAVEL", "AĞRI KESİCİ"),
+    ("EDOLAR", "AĞRI KESİCİ"), ("DEXPASS", "AĞRI KESİCİ"),
+    ("DOLINE", "AĞRI KESİCİ"),
+    ("DUROGESIC", "AĞRI KESİCİ (KUVVETLİ)"),
+    ("FENTANIL", "AĞRI KESİCİ (KUVVETLİ)"),
+    ("MUSCOFLEX", "KAS GEVŞETİCİ"), ("TYOFLEX", "KAS GEVŞETİCİ"),
+    ("TIYOKAS", "KAS GEVŞETİCİ"), ("FLEXO", "KAS GEVŞETİCİ"),
+
+    # ============ BATCH 1 — DİYABET / MİDE / VİTAMİN ============
+    ("GLIFIX", "DİYABET"),    # pioglitazon
+    ("MATOFIN", "DİYABET / KALP YETMEZ. / BÖBREK HAS."),
+    ("GLIMAX", "DİYABET"),
+    ("GLUCOBAY", "DİYABET"),
+    ("JANUMET", "DİYABET"),   # sitagliptin+metformin
+    ("GALVIKS", "DİYABET"),   # vildagliptin+metformin
+    ("ESMAX", "MİDE İLACI"),  # esomeprazol
+    ("PULCET", "MİDE İLACI"), # pantoprazol
+    ("BEMIKS", "B VİTAMİNİ DESTEĞİ"),
+    ("DESIFEROL", "D VİTAMİNİ"),
+    ("APIKOBAL", "B12 VİTAMİNİ DESTEĞİ"),
+    ("MUCOVIT-C", "VİTAMİN DESTEĞİ"),
+
+    # ============ BATCH 1 — ALERJİ / ASTIM / BURUN ============
+    ("ALLERSET", "ALLERJİ / KAŞINTI İLACI"),
+    ("ZADITEN", "ALLERJİ / KAŞINTI İLACI"),
+    ("LEVMONT", "ASTIM İLACI"),  # levosetirizin+montelukast
+    ("ZESPIRA", "ASTIM İLACI"),  # montelukast
+    ("M-FURO", "BURUN İLACI"),
+    ("MOMECON", "BURUN İLACI"),
+    ("INFLACORT", "KORTİZON TEDAVİSİ"),
+    ("BEKLAZON", "ASTIM İLACI"),
+
+    # ============ BATCH 1 — ANTİEPİLEPTİK / SİNİR ============
+    ("GABASET", "ANTİEPİLEPTİK / SİNİR AĞRISI"),
+    ("EPIXX", "ANTİEPİLEPTİK"),   # levetirasetam
+    ("TRILEPTAL", "ANTİEPİLEPTİK"),
+    ("OKSKARBAZEPIN", "ANTİEPİLEPTİK"),
+
+    # ============ BATCH 1 — KAN SULANDIRICI / ANEMİ ============
+    ("HIBOR", "KAN SULANDIRICI (İĞNE)"),
+    ("ARANESP", "ANEMİ TEDAVİSİ (İĞNE)"),
+    ("BINOCRIT", "ANEMİ TEDAVİSİ (İĞNE)"),
+    ("EPREX", "ANEMİ TEDAVİSİ (İĞNE)"),
+
+    # ============ BATCH 1 — VERTİGO / KARIN AĞRISI / İSHAL ============
+    ("BETASERC", "VERTİGO İLACI"),
+    ("DEBRIDAT", "KARIN AĞRISI / KASILMA İLACI"),
+    ("TRIBUDAT", "KARIN AĞRISI / KASILMA İLACI"),
+    ("DICETEL", "KARIN AĞRISI / KASILMA İLACI"),
+
+    # ============ BATCH 1 — HORMON / KADIN HASTALIKLARI ============
+    ("PROGESTAN", "HORMON"),
+    ("CRINONE", "HORMON"),  # zaten var ama
+    ("MICTONORM", "AŞIRI AKTİF MESANE İLACI"),
+
+    # ============ BATCH 1 — DEHB / EREKSİYON / ÜROLOJİ ============
+    ("ATOMINEX", "DEHB İLACI"), ("ATTEX", "DEHB İLACI"),
+    ("MEDIKINET", "DEHB İLACI"), ("CONCERTA", "DEHB İLACI"),
+    ("METILFENIDAT", "DEHB İLACI"), ("ATOMOKSETIN", "DEHB İLACI"),
+    ("CIALIS", "EREKSİYON İLACI"), ("SILDEGRA", "EREKSİYON İLACI"),
+    ("TADALAFIL", "EREKSİYON İLACI"), ("SILDENAFIL", "EREKSİYON İLACI"),
+    ("LIFTA", "EREKSİYON İLACI"),
+    ("PRILIGY", "ERKEN BOŞALMA İLACI"),
+    ("DAPOKSETIN", "ERKEN BOŞALMA İLACI"),
+
+    # ============ BATCH 1 — CİLT / MANTAR ============
+    ("ZALAIN", "MANTAR İLACI"), ("DERMIFIN", "MANTAR İLACI"),
+    ("FUNIT", "MANTAR İLACI"), ("FLUZOLE", "MANTAR İLACI"),
+    ("ITRAKONAZOL", "MANTAR İLACI"), ("TERBINAFIN", "MANTAR İLACI"),
+    ("SERTAKONAZOL", "MANTAR İLACI"),
+    ("DERMOVATE", "CİLT İLACI (KORTİZON)"),
+    ("LOCODERM", "CİLT İLACI (KORTİZON)"),
+
+    # ============ BATCH 1 — ÖKSÜRÜK / MUKOLİTİK ============
+    ("ASIST", "ÖKSÜRÜK KESİCİ"),
+    ("NAC", "ÖKSÜRÜK KESİCİ"),
+    ("ASETILSISTEIN", "ÖKSÜRÜK KESİCİ"),
+    ("MUKOTIK", "ÖKSÜRÜK KESİCİ"),
+    ("NOTUSS", "ÖKSÜRÜK KESİCİ"),
+    ("LEVOPRONT", "ÖKSÜRÜK KESİCİ"),
+    ("COLDAWAY", "GRİP / SOĞUK ALGINLIĞINDA"),
+
+    # ============ BATCH 1 — ROMATİZMA / İMMÜNOSUPRESİF ============
+    ("METOART", "ROMATİZMA / İLTİHAP İLACI"),
+    ("METOTREKSAT", "ROMATİZMA / İLTİHAP İLACI"),
+    ("SANDIMMUN", "İMMÜNOSUPRESİF İLAÇ"),
+    ("PROGRAF", "İMMÜNOSUPRESİF İLAÇ"),
+    ("SIKLOSPORIN", "İMMÜNOSUPRESİF İLAÇ"),
+    ("TAKROLIMUS", "İMMÜNOSUPRESİF İLAÇ"),
+    ("ASACOL", "BAĞIRSAK İLTİHABI İLACI"),
+    ("MESALAZIN", "BAĞIRSAK İLTİHABI İLACI"),
+
+    # ============ BATCH 1 — KOLESTEROL / NÖROLOJİ ============
+    ("ALVASTIN", "KOLESTEROL İLACI"),
+    ("LIPANTHYL", "KOLESTEROL İLACI"),
+    ("NOOTROPIL", "NÖROLOJİ İLACI"),   # piracetam
+    ("PIRACETAM", "NÖROLOJİ İLACI"),
+
+    # ============ BATCH 1 — KANSER İLACI ============
+    ("TEMODAL", "KANSER İLACI"),
+    ("TAMOXIFEN", "KANSER İLACI"),
+    ("LUCRIN", "KANSER İLACI"),  # leuprolid
+
+    # ============ BATCH 1 — KISIRLIK ============
+    ("GONAL-F", "KISIRLIK TEDAVİSİ"),
+    ("FOLITROPIN", "KISIRLIK TEDAVİSİ"),
+    ("MENOPUR", "KISIRLIK TEDAVİSİ"),
+    ("PUREGON", "KISIRLIK TEDAVİSİ"),
+
+    # ============ BATCH 1 — BAĞIŞIKLIK / DİYALİZ ============
+    ("CUVITRU", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("IMMUNOGLOBULIN", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("PHYSIONEAL", "PERİTON DİYALİZ SOLÜSYONU"),
+    ("CAPD", "PERİTON DİYALİZ SOLÜSYONU"),
+
+    # ============ BATCH 1 — CİLT BAKIM / DİĞER ============
+    ("UREDERM", "CİLT İLACI (DIŞ KULLANIM)"),
+    ("KENACORT-A", "CİLT İLACI (KORTİZON)"),
 ]
 
 

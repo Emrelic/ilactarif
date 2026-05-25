@@ -17,8 +17,15 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from ilactarif.bulk_recipes import build_recipe  # noqa: E402
+from ilactarif.bulk_recipes import (  # noqa: E402
+    DEFAULT_GENERAL_UYARI,
+    DEFAULT_UYARI,
+    build_recipe,
+)
 from ilactarif.db import get_connection, init_schema  # noqa: E402
+
+# AI/otomatik üretilmiş uyari metinleri — bunlar override edilebilir.
+AI_GENERATED_UYARILAR = set(DEFAULT_UYARI.values()) | {DEFAULT_GENERAL_UYARI}
 
 
 def main():
@@ -55,10 +62,11 @@ def main():
                 if (old["reviewed"] or 0) > 0:
                     skipped_manual += 1
                     continue
-                # Eski tarifte uyari_metni varsa ve "Doktorunuzun önerdiği..." generic değilse,
-                # bu manuel detaylı demektir → atla
+                # Eski tarifte uyari_metni varsa ve AI üretimi DEĞİLSE (yani manuel
+                # detaylı bir uyarı), tarifi koruyalım.
                 old_uyari = (old_content.get("uyari_metni") or "").strip()
-                if old_uyari and not old_uyari.startswith("Doktorunuzun önerdiği"):
+                if old_uyari and old_uyari not in AI_GENERATED_UYARILAR \
+                        and not old_uyari.startswith("Doktorunuzun önerdiği"):
                     skipped_manual += 1
                     continue
 

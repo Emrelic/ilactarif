@@ -713,6 +713,143 @@ ETKEN_MADDE_KATEGORI = [
     # ============ BATCH 1 — CİLT BAKIM / DİĞER ============
     ("UREDERM", "CİLT İLACI (DIŞ KULLANIM)"),
     ("KENACORT-A", "CİLT İLACI (KORTİZON)"),
+
+    # ============ BATCH 2 — Yeni marka eşlemeleri ============
+    # ANTİBİYOTİK / ANTİVİRAL
+    ("AZRO", "ANTİBİYOTİK"), ("MOLCEF", "ANTİBİYOTİK"),
+    ("KLACID", "ANTİBİYOTİK"), ("LINKOMISIN", "ANTİBİYOTİK"),
+    ("UROMISIN", "ANTİBİYOTİK (İDRAR YOLU)"),
+    ("MONUROL", "ANTİBİYOTİK (İDRAR YOLU)"),
+    ("FOSFOMISIN", "ANTİBİYOTİK (İDRAR YOLU)"),
+    ("DIVERTIN", "ANTİBİYOTİK"), ("DEPOFEN", "ANTİBİYOTİK"),
+    # TANSİYON
+    ("BETANORM", "TANSİYON İLACI"),  # bisoprolol
+    ("INHIBACE", "TANSİYON İLACI"),  # silazapril
+    ("KARVEZIDE", "TANSİYON İLACI"),  # irbesartan+HCT
+    ("ENZEVIN", "TANSİYON İLACI"),    # enalapril
+    ("CARDOPAN", "TANSİYON İLACI"),
+    ("ECTOPIX", "TANSİYON İLACI"),
+    ("TRIATEC", "TANSİYON İLACI"),    # ramipril
+    ("KARDORITM", "KALP RİTM İLACI"),
+    ("CORDARONE", "KALP RİTM İLACI"),
+    ("AMIODARON", "KALP RİTM İLACI"),
+    ("RYTMONORM", "KALP RİTM İLACI"),
+    ("ALDACTAZIDE", "TANSİYON İLACI"),
+    # EREKSİYON
+    ("VIAGRA", "EREKSİYON İLACI"),
+    ("DEGRA", "EREKSİYON İLACI"),
+    # PROSTAT / MESANE
+    ("DETRUSITOL", "AŞIRI AKTİF MESANE İLACI"),
+    ("MICTONORM", "AŞIRI AKTİF MESANE İLACI"),
+    ("TOLTERODIN", "AŞIRI AKTİF MESANE İLACI"),
+    ("OXYBUTININ", "AŞIRI AKTİF MESANE İLACI"),
+    ("BETMIGA", "AŞIRI AKTİF MESANE İLACI"),
+    ("VESICARE", "AŞIRI AKTİF MESANE İLACI"),
+    # PARKİNSON
+    ("PEXOLA", "PARKİNSON İLACI"),
+    ("OPRYMEA", "PARKİNSON İLACI"),
+    ("PRAMIPEKSOL", "PARKİNSON İLACI"),
+    # ANTİPSİKOTİK
+    ("OZAPRIN", "ANTİPSİKOTİK"),
+    ("QUELEPT", "ANTİPSİKOTİK"),
+    # ANTİEPİLEPTİK
+    ("TOPAMAX", "ANTİEPİLEPTİK"),
+    ("TOPIRAMAT", "ANTİEPİLEPTİK"),
+    ("KARAZEPIN", "ANTİEPİLEPTİK"),
+    # MİDE
+    ("APRAZOL", "MİDE İLACI"),       # omeprazol jeneriği
+    ("DEMEPRAZOL", "MİDE İLACI"),    # omeprazol jeneriği
+    ("LANSAZOL", "MİDE İLACI"),
+    ("GASTREN", "MİDE İLACI"),
+    ("LATIXA", "MİDE İLACI"),
+    ("ZOPROTEC", "MİDE İLACI"),
+    ("ALIPZA", "MİDE İLACI"),
+    ("REFCON", "MİDE İLACI (REFLÜ)"),  # alginat
+    # KAN SULANDIRICI / KANAMA
+    ("NEVPARIN", "KAN SULANDIRICI (İĞNE)"),
+    ("HEPARIN", "KAN SULANDIRICI (İĞNE)"),
+    ("FRAXODI", "KAN SULANDIRICI (İĞNE)"),
+    ("TRANSAMINE", "KANAMA DURDURUCU"),
+    ("TRANEKSAMIK", "KANAMA DURDURUCU"),
+    # KONTRAST MADDESİ
+    ("OMNIPAQUE", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("GADOVIST", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("DOTAREM", "RADYOLOJİK KONTRAST MADDESİ"),
+    ("MAGNEVIST", "RADYOLOJİK KONTRAST MADDESİ"),
+    # ANEMİ / DEMİR
+    ("EPOBEL", "ANEMİ TEDAVİSİ (İĞNE)"),
+    ("EPOIETIN", "ANEMİ TEDAVİSİ (İĞNE)"),
+    ("FERIFER", "DEMİR DESTEĞİ"),
+    # ÖKSÜRÜK
+    ("MUCONEX", "ÖKSÜRÜK KESİCİ"),
+    # CİLT / MANTAR / SEDEF / SİVİLCE
+    ("PSORCUTAN", "SEDEF HASTALIĞI İLACI"),
+    ("KALSIPOTRIOL", "SEDEF HASTALIĞI İLACI"),
+    ("PSOVATE", "CİLT İLACI (KORTİZON)"),
+    ("ACNELYSE", "SİVİLCE İLACI"),
+    ("ROACCUTANE", "SİVİLCE İLACI"),
+    ("ISOTRETINOIN", "SİVİLCE İLACI"),
+    ("TRETINOIN", "SİVİLCE İLACI"),
+    ("DIFFERIN", "SİVİLCE İLACI"),
+    ("ADAPALEN", "SİVİLCE İLACI"),
+    ("BUTEFIN", "MANTAR İLACI"),
+    ("MIKOSTATIN", "MANTAR İLACI"),  # nistatin
+    ("FUNGOSTATIN", "MANTAR İLACI"),
+    ("NISTATIN", "MANTAR İLACI"),
+    ("DERMATOP", "CİLT İLACI (KORTİZON)"),
+    ("PSOBETAZOL", "CİLT İLACI (KORTİZON)"),
+    # AĞRI / NSAID JEL
+    ("DIFENAK", "AĞRI KESİCİ"),       # diklofenak jenerik
+    ("PROFEN", "AĞRI KESİCİ"),
+    # NEFES / ASTIM
+    ("VENTOFOR", "NEFES AÇICI (BRONKODİLATÖR)"),
+    ("FIXHALER", "ASTIM İLACI"),
+    ("FORADIL", "NEFES AÇICI (BRONKODİLATÖR)"),
+    # BİTKİSEL / DİĞER
+    ("TEBOKAN", "DOLAŞIM / HAFIZA DESTEĞİ"),
+    ("GINGKO", "DOLAŞIM / HAFIZA DESTEĞİ"),
+    ("NICOTINELL", "SİGARA BIRAKMA"),
+    ("NICORETTE", "SİGARA BIRAKMA"),
+    ("CHAMPIX", "SİGARA BIRAKMA"),
+    ("VARENIKLIN", "SİGARA BIRAKMA"),
+    # MS / İNTERFERON
+    ("VEGAFERON", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("INTERFERON", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("REBIF", "MS İLACI"),
+    ("AVONEX", "MS İLACI"),
+    ("TYSABRI", "MS İLACI"),
+    # HORMON / HİPOFİZ
+    ("MINIRIN", "HORMON"),         # desmopressin
+    ("DESMOPRESSIN", "HORMON"),
+    # KEMOTERAPİ
+    ("METOTREKSAT", "ROMATİZMA / İLTİHAP İLACI"),
+    ("LEFLUNOMID", "ROMATİZMA / İLTİHAP İLACI"),
+    ("ARAVA", "ROMATİZMA / İLTİHAP İLACI"),
+    # BENZODİAZEPİN sürümleri
+    ("KSANAKS", "ANKSİYOLİTİK"),
+    ("APO-ZOLAM", "ANKSİYOLİTİK"),
+    # OPİOİD / KUVVETLİ AĞRI
+    ("MORFIN", "AĞRI KESİCİ (KUVVETLİ)"),
+    ("TIRSED", "AĞRI KESİCİ (KUVVETLİ)"),
+    ("OXYCONTIN", "AĞRI KESİCİ (KUVVETLİ)"),
+    # BAŞ AĞRISI / MİGREN
+    ("ZOMIG", "MİGREN İLACI"),
+    ("IMIGRAN", "MİGREN İLACI"),
+    ("SUMATRIPTAN", "MİGREN İLACI"),
+    ("ZOLMITRIPTAN", "MİGREN İLACI"),
+    ("ELETRIPTAN", "MİGREN İLACI"),
+    ("FROVATRIPTAN", "MİGREN İLACI"),
+    ("RIZATRIPTAN", "MİGREN İLACI"),
+    ("MAXALT", "MİGREN İLACI"),
+    ("INEGY", "KOLESTEROL İLACI"),
+    # MULTİPL SKLEROZ / IMMÜN
+    ("HUMIRA", "BİYOLOJİK İLAÇ"),
+    ("ENBREL", "BİYOLOJİK İLAÇ"),
+    ("REMICADE", "BİYOLOJİK İLAÇ"),
+    ("MABTHERA", "BİYOLOJİK İLAÇ"),
+    ("RITUXIMAB", "BİYOLOJİK İLAÇ"),
+    ("ETANERSEPT", "BİYOLOJİK İLAÇ"),
+    ("ADALIMUMAB", "BİYOLOJİK İLAÇ"),
 ]
 
 
@@ -736,6 +873,30 @@ def guess_kategori(drug_name: str, kullanim_sekli: str = "") -> str:
     for key, kategori in sorted(ETKEN_MADDE_KATEGORI, key=lambda kv: -len(kv[0])):
         if key in name:
             return kategori
+
+    # Generic suffix tabanlı tahmin (örn. "RAMI-PROFEN" → AĞRI)
+    # Dikkat: false-positive olabilir, sadece yüksek güvenli suffix'ler.
+    # İlaç adının ilk kelimesine bakıyoruz (markaadı/etken).
+    first_word = name.split()[0] if name else ""
+    suffix_map = [
+        ("SARTAN", "TANSİYON İLACI"),       # ARB
+        ("PRIL", "TANSİYON İLACI"),         # ACE-I
+        ("DIPIN", "TANSİYON İLACI"),        # CCB
+        ("OLOL", "TANSİYON İLACI"),         # β-blocker
+        ("PRAZOL", "MİDE İLACI"),           # PPI
+        ("TIDIN", "MİDE İLACI"),            # H2 blocker
+        ("LIPTIN", "DİYABET"),              # DPP-4
+        ("GLIFLOZIN", "DİYABET / KALP YETMEZ. / BÖBREK HAS."),  # SGLT-2
+        ("ZEPAM", "ANKSİYOLİTİK"),          # benzodiazepin
+        ("TRIPTAN", "MİGREN İLACI"),
+        ("FENAK", "AĞRI KESİCİ"),           # diklofenak/aceclofenak
+        ("PROFEN", "AĞRI KESİCİ"),          # ibuprofen/ketoprofen
+        ("STATIN", "KOLESTEROL İLACI"),     # NOT: MIKOSTATIN/FUNGOSTATIN için liste önce alıyor
+        ("PARIN", "KAN SULANDIRICI (İĞNE)"),
+    ]
+    for suf, kat in suffix_map:
+        if first_word.endswith(suf):
+            return kat
 
     # Antibiyotikler (sık görülen marka adları)
     antibiyotik = ("AMOKLAVIN", "AUGMENTIN", "KLAMOKS", "CROXILEX", "KLAVUNAT",

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+*.spec
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Hassas: hasta verisi içeren tüm canlı/önizleme/yakalanan dosyalar
+# (KVKK / hasta gizliliği — public repoda kesinlikle olamaz)
+data/ilactarif.db
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/live_capture/
+data/live_preview/
+data/medula_test/
+data/preview/
+
+# Hassas: arşiv özetlerinde gerçek hasta isimleri / e-reçete numaraları var
+docs/medula_archive_summary.json
+docs/medula_archive_summary.md
+docs/top100.txt
+
+# Eczanenin özel verisi (Excel) — public repoda olmamalı
+*.xls
+*.xlsx
+İLAÇ TARİF.*
+
+# Kullanıcının "_yedek" konvansiyonu (commit'siz çalışma)
+_yedek/
+
+# Gizli ayarlar
+.env
+.env.*
+*.local
+
+# Geçici/keşif scriptleri (proje kökünde, src/scripts dışında)
+_inspect_excel.py

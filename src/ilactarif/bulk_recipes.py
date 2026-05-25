@@ -134,6 +134,11 @@ DEFAULT_SURE_GUN = {
     "LOKAL ANESTEZİK":               1,
     "SOMATOSTATİN İLACI":           30,
     "VEREM İLACI":                 180,
+    # ---- batch 4 yeni kategoriler ----
+    "BİT / UYUZ İLACI":              1,
+    "KARIN GAZI İLACI":              7,
+    "E VİTAMİNİ DESTEĞİ":           30,
+    "ACİL İLACI":                    1,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -362,6 +367,14 @@ DEFAULT_UYARI = {
         "Buzdolabında saklayınız. Doktorun belirlediği dozda kullanınız.",
     "VEREM İLACI":
         "Tedaviyi kesinlikle yarıda bırakmayınız. Her gün düzenli, aç karnına alınız.",
+    "BİT / UYUZ İLACI":
+        "Tüm vücuda boyundan aşağıya uygulanır. 8-12 saat beklendikten sonra yıkanır. Gerekirse 1 hafta sonra tekrarlanır.",
+    "KARIN GAZI İLACI":
+        "Yemekten sonra ve yatmadan önce alınız. Çiğneme tabletini çiğneyerek alınız.",
+    "E VİTAMİNİ DESTEĞİ":
+        "Her gün aynı saatte yemekle birlikte alınız.",
+    "ACİL İLACI":
+        "Acil durumlarda kullanılır. Saklama koşullarına dikkat ediniz, son kullanma tarihini takip ediniz.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -475,6 +488,10 @@ DEFAULT_DOZ = {
     "LOKAL ANESTEZİK":      {"gunluk_kez": 1},
     "SOMATOSTATİN İLACI":   {"gunluk_kez": 1},
     "VEREM İLACI":          {"gunluk_kez": 1, "kullanim_zamani": ["sabah"], "yemek": "aç"},
+    "BİT / UYUZ İLACI":     {"gunluk_kez": 1},
+    "KARIN GAZI İLACI":     {"gunluk_kez": 3, "yemek": "yemekten sonra"},
+    "E VİTAMİNİ DESTEĞİ":   {"gunluk_kez": 1, "yemek": "yemekle"},
+    "ACİL İLACI":           {"gunluk_kez": 1},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

@@ -162,6 +162,11 @@ DEFAULT_SURE_GUN = {
     "BİTKİSEL DESTEK":              30,
     "TIBBİ MALZEME":                 1,
     "GIDA TAKVİYESİ":               30,
+    "MİYASTENİA İLACI":             30,
+    "K VİTAMİNİ DESTEĞİ":           30,
+    "ANTİSEPTİK":                    7,
+    "ALERJİ AŞISI":                 90,
+    "TANSİYON İLACI / PROSTAT İLACI": 30,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -438,6 +443,14 @@ DEFAULT_UYARI = {
         "Kullanım talimatlarını ürün kutusundan okuyunuz.",
     "GIDA TAKVİYESİ":
         "Kullanım talimatına göre alınız. İlaç değildir, tedavi yerine geçmez.",
+    "MİYASTENİA İLACI":
+        "Her gün belirlenen saatlerde, yemekten 30-45 dakika önce alınız.",
+    "K VİTAMİNİ DESTEĞİ":
+        "Doktorunuzun belirlediği dozda kullanınız. Pıhtılaşma sorunlarında uygulanır.",
+    "ANTİSEPTİK":
+        "Sadece dış kullanım içindir. Yara temizliğinde uygulanır.",
+    "ALERJİ AŞISI":
+        "Belirlenen şemaya göre, allerji uzmanı tarafından uygulanır.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -575,6 +588,10 @@ DEFAULT_DOZ = {
     "BİTKİSEL DESTEK":      {"gunluk_kez": 2, "yemek": "tok"},
     "TIBBİ MALZEME":        {"gunluk_kez": 1},
     "GIDA TAKVİYESİ":       {"gunluk_kez": 1, "yemek": "yemekle"},
+    "MİYASTENİA İLACI":     {"gunluk_kez": 4, "saat_arasi": 6, "yemek": "yemekten önce"},
+    "K VİTAMİNİ DESTEĞİ":   {"gunluk_kez": 1},
+    "ANTİSEPTİK":           {"gunluk_kez": 2},
+    "ALERJİ AŞISI":         {"gunluk_kez": 1},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

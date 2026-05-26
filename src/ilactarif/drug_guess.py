@@ -3236,6 +3236,143 @@ ETKEN_MADDE_KATEGORI = [
     ("EMADINE", "GÖZ İLACI"),                   # zaten var
     ("NETIRA", "GÖZ İLACI"),                    # zaten var
     ("MAXIDEX", "GÖZ İLACI"),                   # zaten var
+
+    # ============ BATCH 13 — Web search ile bulunan son markalar ============
+    ("GYREX", "ANTİPSİKOTİK"),                  # ketiapin
+    ("NERUDA", "ANTİEPİLEPTİK / SİNİR AĞRISI"), # gabapentin
+    ("TARLUSAL", "HORMON"),                     # medroksiprogesteron
+    ("MASILVA", "PULMONER HİPERTANSİYON İLACI"),  # masitentan
+    ("MACITRIN", "PULMONER HİPERTANSİYON İLACI"),  # masitentan
+    ("MASITENTAN", "PULMONER HİPERTANSİYON İLACI"),
+    ("SAYFREN", "ANTİPSİKOTİK"),                # aripiprazol
+    ("ZOLERIP", "ANTİPSİKOTİK"),                # aripiprazol
+    ("COGITO", "ALZHEİMER İLACI"),              # memantin
+    ("RIPATRIN", "ALLERJİ / KAŞINTI İLACI"),    # rupatadin
+    ("PLANOR", "KAN SULANDIRICI"),              # klopidogrel
+    ("FORTINE", "AĞRI KESİCİ"),                 # flurbiprofen
+    ("TEGLIX", "DİYABET"),                      # nateglinid
+    ("NATEGLINID", "DİYABET"),
+    ("TILANTA", "KAN SULANDIRICI"),             # tikagrelor
+    ("TIKAGRELOR", "KAN SULANDIRICI"),
+    ("VALCODIN", "TANSİYON İLACI"),             # valsartan+amlodipin
+    ("PEPTICER", "MİDE İLACI"),                 # lansoprazol
+    ("PIMARO", "BÖBREK HASTALIĞI İLACI"),       # sinakalset
+    ("DESCASE", "ASTIM İLACI"),                 # desloratadin+montelukast
+    ("INSOVEF", "UYKU İLACI"),                  # melatonin
+    ("ASEKET", "AĞRI KESİCİ"),                  # deksketoprofen+parasetamol
+    ("ZLYNDA", "DOĞUM KONTROL"),                # drospirenon
+    ("BARCA", "AĞRI KESİCİ"),                   # etodolak SR
+    ("NARISAT", "ASTIM İLACI"),                 # levosetirizin+montelukast
+    ("NOKREV", "ALKOL BAĞIMLILIĞI"),            # naltrekson
+    ("NALTREKSON", "ALKOL BAĞIMLILIĞI"),
+    ("GAMAKUIL", "KAS GEVŞETİCİ"),              # fenprobamat
+    ("FENPROBAMAT", "KAS GEVŞETİCİ"),
+    ("ENEAS", "TANSİYON İLACI"),                # enalapril+nitrendipin
+    ("NITRENDIPIN", "TANSİYON İLACI"),
+    ("ZOLTEM", "BULANTI KESİCİ"),               # ondansetron
+    ("ZAYON", "ERKEN BOŞALMA İLACI"),           # dapoksetin
+    ("DORSILON", "KAS GEVŞETİCİ"),              # mefenoksalon+parasetamol
+    ("MEFENOKSALON", "KAS GEVŞETİCİ"),
+    ("DIFURAT", "MS İLACI"),                    # dimetil fumarat
+    ("DIMETIL FUMARAT", "MS İLACI"),
+    ("EPIZONYA", "ANTİEPİLEPTİK"),              # zonisamid
+    ("ZONISAMID", "ANTİEPİLEPTİK"),
+    ("FEPATIL", "KOLESTEROL İLACI"),            # fenofibrat
+    ("RELIXAN", "ANTİPSİKOTİK"),                # fluoksetin+olanzapin
+    ("VISANNE", "HORMON"),                      # dienogest (endometriozis)
+    ("QLAIRISTA", "DOĞUM KONTROL"),             # estradiol valerat+dienogest
+    ("VIGRANDE", "EREKSİYON İLACI"),            # sildenafil
+    ("FLYNTA", "EREKSİYON İLACI"),              # tadalafil
+    ("VIAMED", "EREKSİYON İLACI"),              # sildenafil
+    ("HARDCIS", "EREKSİYON İLACI"),             # tadalafil
+    ("RETOMIN", "EREKSİYON İLACI"),             # sildenafil
+    ("FEIBA", "HEMOFİLİ İLACI"),                # faktör VIII inhibitör
+    ("GRANOCYTE", "BAĞIŞIKLIK SİSTEMİ İLACI"),  # lenograstim
+    ("LENOGRASTIM", "BAĞIŞIKLIK SİSTEMİ İLACI"),
+    ("METIGAST", "KARIN GAZI İLACI"),           # simetikon
+    ("PIROXYN", "AĞRI KESİCİ"),                 # piroksikam
+    ("AKELA", "SİVİLCE İLACI"),                 # eritromisin
+    ("HIRONIL", "TOPLARDAMAR / VARİS İLACI"),   # heparinoid
+    ("SUPRAFEN", "AĞRI KESİCİ"),                # ibuprofen
+    ("FUZO PLUS", "AĞRI KESİCİ"),               # nimesulid+lidokain
+    ("FUZO", "AĞRI KESİCİ"),
+    ("PREPAGEL", "AĞRI KESİCİ"),                # dietilamin salisilat
+    ("FUGGY", "CİLT İLACI (KORTİZON)"),         # izokonazol+diflukortolon
+    ("TRACOVOL", "CİLT İLACI (KORTİZON)"),
+    ("IZOKONAZOL", "MANTAR İLACI"),
+    ("DIFLUKORTOLON", "CİLT İLACI (KORTİZON)"),
+    ("COLIDUR", "BAĞIRSAK İLTİHABI İLACI"),     # rifaksimin
+    ("RIFAKSIMIN", "BAĞIRSAK İLTİHABI İLACI"),
+    ("TILAC", "AĞRI KESİCİ"),                   # etodolak SR
+    ("MELIMIN", "TOPLARDAMAR / VARİS İLACI"),   # diosmin+hesperidin
+    ("DIOSMIN", "TOPLARDAMAR / VARİS İLACI"),
+    ("HESPERIDIN", "TOPLARDAMAR / VARİS İLACI"),
+    ("SARCOPEN", "AĞRI KESİCİ"),                # deksketoprofen+tiyokolşikosid
+    ("STIDERM", "ALLERJİ / KAŞINTI İLACI"),     # mepiramin+lidokain+dekspantenol
+    ("SOLERAT", "ALLERJİ / KAŞINTI İLACI"),     # mepiramin+lidokain+dekspantenol
+    ("PERS-MANT", "MANTAR İLACI"),              # mikonazol+alüminyum
+    ("IMPETEX", "CİLT İLACI (KORTİZON)"),       # diflukortolon+klorkinaldol
+    ("SIVEX", "SİVİLCE İLACI"),                 # sodyum sülfasetamid
+    ("EVIN", "E VİTAMİNİ DESTEĞİ"),             # E vitamini IM
+    ("ETOVER", "AĞRI KESİCİ"),                  # etofenamat
+    ("ETOFENAMAT", "AĞRI KESİCİ"),
+    ("PODORA", "ANTİBİYOTİK"),                  # sefpodoksim
+    ("SEFPODOKSIM", "ANTİBİYOTİK"),
+    ("CEFPODOXIME", "ANTİBİYOTİK"),
+    ("KOMFER", "AĞRI KESİCİ"),                  # parasetamol+kafein
+    ("KOMFER FOL", "DEMİR DESTEĞİ"),            # demir+folik
+    ("EXTAL", "ÖKSÜRÜK KESİCİ"),                # asetilsistein
+    ("ANTIBEKSIN", "ÖKSÜRÜK KESİCİ"),           # efedrin+feniramin
+    ("PRIZIN", "BULANTI KESİCİ"),               # meklozin
+    ("MEKLOZIN", "BULANTI KESİCİ"),
+    ("KUILIL", "KAS GEVŞETİCİ"),                # fenprobamat+parasetamol
+    ("GAYABEN", "ÖKSÜRÜK KESİCİ"),              # karbetapentan+difenhidramin
+    ("PELUMM", "ÖKSÜRÜK KESİCİ"),               # Pelargonium sidoides
+    ("PELARGONIUM", "ÖKSÜRÜK KESİCİ"),
+    ("RONIDRO", "OSTEOPOROZ İLACI"),            # zoledronik
+    ("ZOLEDRONIK", "OSTEOPOROZ İLACI"),
+    ("FILINSEL", "ASTIM İLACI"),                # teofilin/aminofilin
+    ("AMINOFILIN", "ASTIM İLACI"),
+    ("BERAVIT", "VİTAMİN DESTEĞİ"),             # multivitamin
+    ("JECTERA", "EREKSİYON İLACI"),             # alprostadil
+    ("ALPROSTADIL", "EREKSİYON İLACI"),
+    ("ASIPEC", "PARKİNSON İLACI"),              # rasajilin
+    ("RASAJILIN", "PARKİNSON İLACI"),
+    ("MUSKAZON", "KAS GEVŞETİCİ"),              # parasetamol+klorzoksazon
+    ("BUTIROL", "ÖKSÜRÜK KESİCİ"),              # butamirat
+    ("BUTAMIRAT", "ÖKSÜRÜK KESİCİ"),
+    ("PEDİMİX", "ÖKSÜRÜK KESİCİ"),              # pediatrik öksürük
+    ("PEDIMIX", "ÖKSÜRÜK KESİCİ"),
+    ("PEDITUS", "ÖKSÜRÜK KESİCİ"),
+    ("KARBIDOZ", "BÖBREK HASTALIĞI İLACI"),     # sodyum bikarbonat
+    ("FLUREND", "BOĞAZ İLACI"),                 # flurbiprofen
+    ("GERAKS", "AĞIZ-DİŞ İLACI"),               # klorhekzidin+benzidamin
+    ("DEMOXIF", "GÖZ İLACI"),                   # moksifloksasin
+    ("BIVOXA", "GÖZ İLACI"),                    # moksifloksasin
+    ("DEXA-SINE", "GÖZ İLACI"),                 # deksametazon
+    ("OVADRIL", "ALLERJİ / KAŞINTI İLACI"),     # çinko+difenhidramin+lidokain
+    ("SOKOL", "KABIZLIK İLACI"),                # likit parafin
+    ("LIKIT PARAFIN", "KABIZLIK İLACI"),
+    ("BT ORAL", "KOLON TEMİZLEYİCİ"),           # sodyum fosfat
+    ("VAGI-HEX", "KADIN HASTALIKLARINDA"),      # heksetidin
+    ("HEKSETIDIN", "KADIN HASTALIKLARINDA"),
+    ("H-VAC", "AŞI"),                           # hepatit B aşısı
+    ("NUROFARM", "GRİP / SOĞUK ALGINLIĞINDA"),  # ibuprofen+psödoefedrin
+    ("NUROFARM-C", "GRİP / SOĞUK ALGINLIĞINDA"),
+    ("MONOVIT", "D VİTAMİNİ"),                  # kolekalsiferol
+    ("NORSOL", "GÖZ İLACI"),                    # prednizolon göz
+    ("BIOAK", "VİTAMİN DESTEĞİ"),               # biotin
+    ("BIOTIN", "VİTAMİN DESTEĞİ"),
+    ("TURKTIPSAN VITAMIN C", "VİTAMİN DESTEĞİ"),
+    ("TURKFLEKS", "ELEKTROLİT"),                # serum fizyolojik
+    ("SIHHAT POVISOL", "ANTİSEPTİK"),
+    ("MAJISTRAL", "TIBBİ MALZEME"),
+    ("MAJİSTAL", "TIBBİ MALZEME"),
+    ("MOLAR SODYUM BIKARARBONAT", "ELEKTROLİT"),
+    ("MOLAR SODYUM", "ELEKTROLİT"),
+    ("ELFENOR", "AĞRI KESİCİ"),                 # flurbiprofen jel
+    ("KATARIN", "GÖZ İLACI"),                   # göz vitamini
+    ("ORSA", "TIBBİ MALZEME"),                  # kol askısı
 ]
 
 

@@ -167,6 +167,7 @@ DEFAULT_SURE_GUN = {
     "ANTİSEPTİK":                    7,
     "ALERJİ AŞISI":                 90,
     "TANSİYON İLACI / PROSTAT İLACI": 30,
+    "PULMONER HİPERTANSİYON İLACI": 30,
 }
 
 # Kategoriye göre varsayılan UYARI metni
@@ -451,6 +452,8 @@ DEFAULT_UYARI = {
         "Sadece dış kullanım içindir. Yara temizliğinde uygulanır.",
     "ALERJİ AŞISI":
         "Belirlenen şemaya göre, allerji uzmanı tarafından uygulanır.",
+    "PULMONER HİPERTANSİYON İLACI":
+        "Her gün aynı saatte düzenli alınız. Doktor önerisi olmadan kesinlikle bırakmayınız.",
 }
 
 # Kategoriye göre günlük kez / saat arası / yemek varsayılanları
@@ -592,6 +595,7 @@ DEFAULT_DOZ = {
     "K VİTAMİNİ DESTEĞİ":   {"gunluk_kez": 1},
     "ANTİSEPTİK":           {"gunluk_kez": 2},
     "ALERJİ AŞISI":         {"gunluk_kez": 1},
+    "PULMONER HİPERTANSİYON İLACI": {"gunluk_kez": 1, "yemek": "fark etmez"},
 }
 
 DEFAULT_GENERAL_UYARI = "Doktorunuzun önerdiği doz ve süreye uyunuz. Herhangi bir yan etki durumunda doktorunuza başvurunuz."

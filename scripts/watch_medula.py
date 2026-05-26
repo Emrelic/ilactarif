@@ -50,10 +50,17 @@ from ilactarif.models import (  # noqa: E402
     UsageLabel,
     WarningLabel,
 )
+from ilactarif import printer  # noqa: E402
 
 
 PREVIEW_DIR = ROOT / "data" / "live_preview"
 PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
+
+
+# Shift+F12 hotkey için: son yakalanan reçetenin tüm etiket dosyaları.
+# Liste: [(p1, p2_or_None, p3_or_None), ...] her ilaç için
+LAST_LABELS: list[tuple[Path, Path | None, Path | None]] = []
+LAST_RECETE_NO: str = ""
 
 
 # ---------------------------------------------------------------------------
@@ -245,6 +252,12 @@ def handle_recete(cap: PrescriptionCapture, html: str) -> None:
     log.info("Önizleme: %s", out_path)
     webbrowser.open(out_path.as_uri())
 
+    # Shift+F12 yazdırma için global state'i güncelle
+    global LAST_LABELS, LAST_RECETE_NO
+    LAST_LABELS = [(it["p1"], it["p2"], it["p3"]) for it in items if it["p1"]]
+    LAST_RECETE_NO = cap.recete_no
+    log.info("✓ %d ilaç için etiketler hazır. Shift+F12 ile yazdır.", len(LAST_LABELS))
+
 
 def esc(s):
     s = s or ""
@@ -316,11 +329,53 @@ def build_preview_html(cap, items, eczane_adi, eczane_tel) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Shift+F12 → son etiketleri yazıcıya gönder
+# ---------------------------------------------------------------------------
+def print_last_labels():
+    """Son yakalanan reçetenin tüm etiketlerini yazıcıya gönder."""
+    if not LAST_LABELS:
+        log.warning("⚠ Shift+F12: Henüz bir e-reçete yakalanmadı, yazdırılacak etiket yok.")
+        return
+    log.info("🖨 Shift+F12 alındı — %s için %d ilaç etiketi yazdırılıyor…",
+             LAST_RECETE_NO, len(LAST_LABELS))
+    sent = 0
+    for p1, p2, p3 in LAST_LABELS:
+        for p in (p1, p2, p3):
+            if p and p.exists():
+                try:
+                    printer.print_image(p)
+                    sent += 1
+                except Exception as e:
+                    log.exception("Yazdırma hatası (%s): %s", p.name, e)
+    log.info("✓ Yazdırma tamamlandı: %d etiket gönderildi.", sent)
+
+
+def register_hotkey():
+    """Sistem geneli Shift+F12 dinleyicisi kur."""
+    try:
+        import keyboard
+    except ImportError:
+        log.warning("⚠ 'keyboard' paketi yüklü değil. pip install keyboard")
+        return False
+    try:
+        keyboard.add_hotkey("shift+f12", print_last_labels)
+        log.info("⌨ Kısayol etkin: Shift+F12 → son etiketleri yazdır")
+        return True
+    except Exception as e:
+        log.exception("Hotkey kurulamadı: %s", e)
+        return False
+
+
+# ---------------------------------------------------------------------------
 # Ana döngü
 # ---------------------------------------------------------------------------
 def main():
     log.info("Watcher başlıyor… Botanik EOS + Medula açık olmalı.")
     log.info("Medula'da bir e-reçete açın → otomatik önizleme açılacak.")
+
+    # Global hotkey
+    register_hotkey()
+
     log.info("Ctrl+C ile durdurun.")
     w = MedulaWatcher(on_recete=handle_recete, interval=1.0)
     w.start()
